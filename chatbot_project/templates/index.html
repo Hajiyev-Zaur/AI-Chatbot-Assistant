@@ -65,7 +65,7 @@
         const chatbox = document.getElementById("chatbox");
 
         if (userInput) {
-            const userMessage = `<p class="user-message"><strong>Sen:</strong> ${userInput}</p>`;
+            const userMessage = `<p class="user-message"><strong>You:</strong> ${userInput}</p>`;
             chatbox.innerHTML += userMessage;
 
             fetch('/get', {
